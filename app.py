@@ -4,7 +4,7 @@ import fitz  # PyMuPDF
 from groq import Groq
 
 # Configuration de l'interface
-st.set_page_config(page_title="Assistant IA", page_icon="📄", layout="wide")
+st.set_page_config(page_title="Assistant IA", page_icon="📄", layout="centered")
 
 # BARRE LATÉRALE
 with st.sidebar:
